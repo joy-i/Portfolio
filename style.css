@@ -765,6 +765,10 @@ h3.my-profession{
     .section.open{
         left:270px;
     }
+    .about .about-content .personal-info{
+        display:block;
+        margin-left:0;
+    }
 }
 @media(max-width:991px){
     .contact .contact-info-item, 
