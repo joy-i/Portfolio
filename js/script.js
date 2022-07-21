@@ -18,7 +18,7 @@ const nav = document.querySelector(".nav"),
         a.addEventListener("click", function() {
             for(let i=0; i<totalSection; i++){
                 allSection[i].classList.remove("back-section");
-            }s
+            }
 
             for(let j=0; j<totalNavList; j++){
                 if(navList[j].querySelector("a").classList.contains("active")){
@@ -42,7 +42,6 @@ const nav = document.querySelector(".nav"),
         const target= element.getAttribute("href").split("#")[1];
         document.querySelector("#" + target).classList.add("active")      
     }
-
     
     const navTogglerBtn = document.querySelector(".nav-toggler"),
         aside = document.querySelector(".aside");
@@ -56,4 +55,3 @@ const nav = document.querySelector(".nav"),
                 allSection[i].classList.toggle("open");
             }
         }
-
